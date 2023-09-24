@@ -4,7 +4,7 @@ const nextConfig = {
         remotePatterns: [
           {
             protocol: 'https',
-            hostname: 'portfolio-demo-g1q6mr7h6-jonadrar.vercel.app',
+            hostname: 'res.cloudinary.com',
             port: '',
             pathname: '/**',
           },

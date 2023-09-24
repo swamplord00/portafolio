@@ -1,58 +1,64 @@
-import { AnimatedImage } from '@/components/AnimatedImage'
+import { AnimatedImage } from "@/components/AnimatedImage";
+import { ProjectCard } from "@/components/ProjectCard";
 
-import React from 'react'
-export const metadata={
-    title:"proyectos de Victor",
-    description:"React, NextJS"
-}
+import React from "react";
+export const metadata = {
+  title: "proyectos de Victor",
+  description: "React, NextJS",
+};
 
 const page = () => {
+  const projects = [
+    {
+      image:
+        "https://res.cloudinary.com/dfi52sqwg/image/upload/v1695472118/uxkglrtk4fvwes0flzqz.png",
+      title: "Landing Page Cosmética Natural",
+      description: "Una tienda en línea para productos de cosmética natural.",
+      link: "https://cosmeticanatural.netlify.app/",
+    },
+    {
+      image:
+        "https://res.cloudinary.com/dfi52sqwg/image/upload/v1695472117/qiq5wabnopo4kolzv4eh.png",
+      title: "Reviews products Page",
+      description: "Una página de reseñas de productos de cosmética.",
+      link: "https://reviews-c-page.netlify.app/",
+    },
+    {
+      image:
+        "https://res.cloudinary.com/dfi52sqwg/image/upload/v1695472117/z5a8fscfrk72gtprlnek.png",
+      title: "Forecast Page",
+      description: "Una página para consultar el pronóstico del tiempo.",
+      link: "https://forescast-api-team5.netlify.app/",
+    },
+    {
+      image:
+        "https://res.cloudinary.com/dfi52sqwg/image/upload/v1695472118/rzdg3o8g8etjo24oet3e.png",
+      title: "Restorant Sushi Page",
+      description: "Una página de reserva de mesas en un restorante.",
+      link: "https://sushironin.netlify.app/",
+    },
+    {
+      image:
+        "https://res.cloudinary.com/dfi52sqwg/image/upload/v1695472118/dwb2nbhqjgev43yp4cyt.png",
+      title: "Ecommerce Fashion Store Page",
+      description: "Una página de compra de ropa y accesorios.",
+      link: "https://fashionstorecl.netlify.app/",
+    },
+  ];
+
   return (
-    <div className='flex flex-col items-center gap-2'>
+    <>
       
 
+      <div className="flex flex-col items-center gap-2">
 
-<a href="#" className="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
-    <img className="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-l-lg" src="/assets/images/proyecto1.png" alt=""/>
-    <div className="flex flex-col justify-between p-4 leading-normal">
-        <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology acquisitions 2021</h5>
-        <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
+      {projects.map((project, index) => (
+        <ProjectCard key={index} {...project} />
+      ))}
     </div>
-</a>
 
-<a href="#" className="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
-    <img className="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-l-lg" src="/assets/images/proyecto2.png" alt=""/>
-    <div className="flex flex-col justify-between p-4 leading-normal">
-        <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology acquisitions 2021</h5>
-        <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
-    </div>
-</a>
-<a href="#" className="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
-    <img className="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-l-lg" src="/assets/images/proyecto3.png" alt=""/>
-    <div className="flex flex-col justify-between p-4 leading-normal">
-        <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology acquisitions 2021</h5>
-        <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
-    </div>
-</a>
-<a href="#" className="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
-    <img className="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-l-lg" src="/assets/images/proyecto4.png" alt=""/>
-    <div className="flex flex-col justify-between p-4 leading-normal">
-        <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology acquisitions 2021</h5>
-        <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
-    </div>
-</a>
-<a href="#" className="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
-    <img className="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-l-lg" src="/assets/images/proyecto5.png" alt=""/>
-    <div className="flex flex-col justify-between p-4 leading-normal">
-        <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology acquisitions 2021</h5>
-        <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
-    </div>
-</a>
+    </>
+  );
+};
 
-
-
-    </div>
-  )
-}
-
-export default page
+export default page;

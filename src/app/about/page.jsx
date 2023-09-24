@@ -23,7 +23,23 @@ const page = () => {
             <a href="#" class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-gray-900 rounded-lg border border-gray-300 hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800">
                 Learn more
             </a>  
+
+           
+
         </div>
+        <section className="curriculum">
+      <h2>Datos Personales</h2>
+      <p>Nombre: [Nombre]</p>
+      <p>Apellido: [Apellido]</p>
+
+      <h2>Datos de Contacto</h2>
+      <p>Correo Electrónico: [Correo]</p>
+      <p>LinkedIn: [Enlace a LinkedIn]</p>
+      <p>GitHub: <a href="https://github.com/swamplord00">swamplord00</a></p>
+
+      <h2>Habilidades y Conocimientos</h2>
+      <p>Desarrollo Full Stack, React, Node.js, Next.js, Tailwind CSS, etc.</p>
+    </section>
     </div>
 </section>
 

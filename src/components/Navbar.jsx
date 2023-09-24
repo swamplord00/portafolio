@@ -6,7 +6,7 @@ export const Navbar = () => {
   return (
     <>
        <header className='w-full px-32 py-8 font-medium flex items-center justify-between'>
-            <nav>
+            <nav className='space-x-4'>
                 
                 <Link href="/" >Home </Link>
                 <Link href="/about" >About </Link>
@@ -19,8 +19,8 @@ export const Navbar = () => {
             </div>
             <nav className='flex items-center justify-center flex-wrap gap-2 '>
                 <a href='https://x.com ' target={'_blank'}><XIcon/></a>
-                <a href='https://github.com' target={'_blank'}><GitHubIcon/></a>
-                <a href='https://linkedin.com' target={'_blank'}><LinkedInIcon/></a>
+                <a href='https://github.com/swamplord00' target={'_blank'}><GitHubIcon/></a>
+                <a href='https://www.linkedin.com/in/victor-briones-82324558' target={'_blank'}><LinkedInIcon/></a>
                 <a href='https://pinterest.com' target={'_blank'}><PinterestIcon/></a>
                 <a href='https://dribbble.com' target={'_blank'}><DribbbleIcon/></a>
 
