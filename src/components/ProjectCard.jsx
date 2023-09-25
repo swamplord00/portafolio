@@ -21,7 +21,7 @@ export const ProjectCard = ({ index, image, title, description, link }) => {
 
       {isModalOpen && (
         <div className="fixed top-0 left-0 w-full h-full bg-black bg-opacity-50 flex justify-center items-center z-50">
-          <div className="bg-white p-8 rounded-md w-3/4">
+          <div className="bg-white p-8 rounded-md w-11/12">
             <h2 className="text-2xl font-bold mb-4">{title}</h2>
             <iframe src={link} title={title} className="w-full h-96"></iframe>
             <button 
