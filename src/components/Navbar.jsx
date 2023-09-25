@@ -5,11 +5,11 @@ import { DribbbleIcon, GitHubIcon, LinkedInIcon, PinterestIcon, XIcon } from './
 export const Navbar = () => {
   return (
     <>
-       <header className='w-full px-32 py-8 font-medium flex items-center justify-between'>
-            <nav className='space-x-4'>
+       <header className='w-full px-2 py-8 font-medium flex items-center justify-between'>
+            <nav className='space-x-2 flex flex-wrap'>
                 
-                <Link href="/" >Home </Link>
-                <Link href="/about" >About </Link>
+                <Link href="/" >Home</Link>
+                <Link href="/about" >About</Link>
                 <Link href="/projects" >Projects</Link>
                 
 

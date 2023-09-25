@@ -9,11 +9,11 @@ import { AnimatedImage } from '@/components/AnimatedImage'
 export default function Home() {
   return (
     <>
-      <div className='w-full h-full p-32 '>
-        <main className='flex items-center justify-between w-full '>
+      <div className='w-full h-full p-10 '>
+        <main className='flex items-center justify-between w-full flex-wrap '>
           
           <AnimatedImage src='https://res.cloudinary.com/dfi52sqwg/image/upload/v1695587508/portafolio/roxar9dgqvivurufz2iv.png'/>
-          <div className='w-1/2'>
+          <div className='w-full md:w-1/2 p-3'>
               <AnimatedText text={'Bringing your ideas to life.'}/>
               
               <p className='my-4 font-medium text-base '>
