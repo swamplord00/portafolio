@@ -1,13 +1,13 @@
 import * as React from "react"
-const SvgComponent = (props) => (
+const SvgComponent = ({ className, ...rest }) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     xmlSpace="preserve"
     viewBox="0 0 1080 1080"
     width="15em"
     height="15em"
-    className={`w-full h-auto`}
-    {...props}
+    className={`w-full h-auto ${className}`}
+    
   >
     <path
       fill="#FFF"

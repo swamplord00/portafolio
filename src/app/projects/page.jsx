@@ -1,4 +1,6 @@
+import { AnimatedCard } from "@/components/AnimatedCard";
 import { AnimatedImage } from "@/components/AnimatedImage";
+import { AnimatedText } from "@/components/AnimatedText";
 import { ProjectCard } from "@/components/ProjectCard";
 
 import React from "react";
@@ -48,12 +50,16 @@ const page = () => {
 
   return (
     <>
-      
+      <div className="p-8">
+
+        <AnimatedText text={'Portfolio'}/>
+
+      </div>
 
       <div className="flex flex-col items-center gap-2">
 
       {projects.map((project, index) => (
-        <ProjectCard key={index} {...project} />
+        <AnimatedCard key={index} {...project} />
       ))}
     </div>
 
