@@ -15,7 +15,7 @@ export const ProjectCard = ({ index, image, title, description, link }) => {
           className="bg-blue-500 text-white px-4 py-2 rounded-md"
           onClick={() => setIsModalOpen(true)}
         >
-          Ver más
+          Learn more
         </button>
       </div>
 
@@ -28,7 +28,7 @@ export const ProjectCard = ({ index, image, title, description, link }) => {
               className="mt-4 bg-red-500 text-white px-4 py-2 rounded-md"
               onClick={() => setIsModalOpen(false)}
             >
-              Cerrar
+              Close
             </button>
           </div>
         </div>

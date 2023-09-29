@@ -6,6 +6,7 @@ import {
   SvgReact,
   SvgTailwind,
 } from "@/components/Icons";
+import Link from "next/link";
 import React from "react";
 export const metadata = {
   title: "about",
@@ -155,6 +156,15 @@ const page = () => {
                 <p className="mt-2 text-gray-600">Express.js</p>
               </div>
             </section>
+            <div className="flex flex-wrap gap-2 items-center justify-center">
+ 
+              <Link href='/assets/docs/CV.pdf' className='flex items-center justify-center bg-slate-950 text-slate-100 p-2 rounded-lg text-lg hover:bg-slate-100 hover:text-slate-900 ' target={'_blank'} download={true}>
+                Curriculum
+              </Link>
+              <Link href="/projects" className='flex items-center justify-center bg-slate-950 text-slate-100 p-2 rounded-lg text-lg hover:bg-slate-100 hover:text-slate-900 '>
+                Portfolio
+              </Link>
+            </div>
           </section>
         </div>
       </section>

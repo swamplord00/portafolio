@@ -1,7 +1,7 @@
 import { AnimatedCard } from "@/components/AnimatedCard";
-import { AnimatedImage } from "@/components/AnimatedImage";
+
 import { AnimatedText } from "@/components/AnimatedText";
-import { ProjectCard } from "@/components/ProjectCard";
+
 
 import React from "react";
 export const metadata = {
@@ -15,35 +15,35 @@ const page = () => {
       image:
         "https://res.cloudinary.com/dfi52sqwg/image/upload/v1695472118/uxkglrtk4fvwes0flzqz.png",
       title: "Landing Page Cosmética Natural",
-      description: "Una tienda en línea para productos de cosmética natural.",
+      description: "An online store for natural cosmetic products.",
       link: "https://cosmeticanatural.netlify.app/",
     },
     {
       image:
         "https://res.cloudinary.com/dfi52sqwg/image/upload/v1695472117/qiq5wabnopo4kolzv4eh.png",
       title: "Reviews products Page",
-      description: "Una página de reseñas de productos de cosmética.",
+      description: "A cosmetic product review page.",
       link: "https://reviews-c-page.netlify.app/",
     },
     {
       image:
         "https://res.cloudinary.com/dfi52sqwg/image/upload/v1695472117/z5a8fscfrk72gtprlnek.png",
       title: "Forecast Page",
-      description: "Una página para consultar el pronóstico del tiempo.",
+      description: "A page to check the weather forecast.",
       link: "https://forescast-api-team5.netlify.app/",
     },
     {
       image:
         "https://res.cloudinary.com/dfi52sqwg/image/upload/v1695472118/rzdg3o8g8etjo24oet3e.png",
       title: "Restorant Sushi Page",
-      description: "Una página de reserva de mesas en un restorante.",
+      description: "A page for reserving tables at a restaurant.",
       link: "https://sushironin.netlify.app/",
     },
     {
       image:
         "https://res.cloudinary.com/dfi52sqwg/image/upload/v1695472118/dwb2nbhqjgev43yp4cyt.png",
       title: "Ecommerce Fashion Store Page",
-      description: "Una página de compra de ropa y accesorios.",
+      description: "A page for buying clothes and accessories.",
       link: "https://fashionstorecl.netlify.app/",
     },
   ];
