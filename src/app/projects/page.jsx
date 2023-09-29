@@ -50,7 +50,7 @@ const page = () => {
 
   return (
     <>
-    <div className="bg-gray-100 pb-8">
+    <div className="bg-gray-100 pb-8  items-center">
 
       <div className="p-8">
 
@@ -58,7 +58,7 @@ const page = () => {
 
       </div>
 
-      <div className="flex flex-col items-center gap-2">
+      <div className="flex flex-col items-center  gap-2">
 
       {projects.map((project, index) => (
         <AnimatedCard key={index} {...project} />

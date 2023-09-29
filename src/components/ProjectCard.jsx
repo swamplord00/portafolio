@@ -6,8 +6,8 @@ export const ProjectCard = ({ index, image, title, description, link }) => {
   const [isModalOpen, setIsModalOpen] = useState(false);
   return (
     <>
-      <div id={index} className="bg-white shadow-lg rounded-lg p-4 flex md:flex-row flex-col items-center md:space-x-4 space-y-4 md:space-y-0 max-w-xl">
-      <Image src={image} alt={title} className=" max-w-full h-48 object-cover rounded-lg" width={500} height={500} />
+      <div id={index} className="bg-white shadow-lg rounded-lg p-4 flex md:flex-row flex-col items-center md:space-x-4 space-y-4 md:space-y-0 max-w-3xl">
+      <Image src={image} alt={title} className=" max-w-[300px] h-48 object-cover rounded-lg" width={500} height={500} />
       <div className="p-4">
         <h3 className="text-xl font-bold mb-2">{title}</h3>
         <p className="text-gray-600 mb-4">{description}</p>
