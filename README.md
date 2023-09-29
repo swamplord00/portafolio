@@ -1,34 +1,44 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Portafolio de [Nombre]
 
-## Getting Started
+Bienvenido al repositorio de mi portafolio personal. Aquí encontrarás información sobre mí, mis proyectos y las tecnologías que utilizo.
 
-First, run the development server:
+## Contenido
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+- [Sobre mí](#sobre-mí)
+- [Proyectos](#proyectos)
+- [Tecnologías](#tecnologías)
+- [Contacto](#contacto)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Sobre mí
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+https://portafolio-bx3j6s78u-swamplord00.vercel.app/about
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Proyectos
 
-## Learn More
+https://portafolio-bx3j6s78u-swamplord00.vercel.app/projects
 
-To learn more about Next.js, take a look at the following resources:
+## Contacto
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Si deseas ponerse en contacto conmigo, puedes enviarme un correo electrónico a vbrionesparra@gmail.com.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Licencia
 
-## Deploy on Vercel
+Este proyecto está bajo la Licencia MIT 
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Tecnologías Utilizadas
+
+
+HTML5
+Tailwind CSS
+JavaScript
+Node.js
+Express.js
+
+## Instalación y Uso
+
+1. Clona este repositorio en tu máquina local usando git clone https://github.com/swamplord00/portafolio.git.
+2. Navega a la carpeta del proyecto usando cd portafolio.
+3. Instala las dependencias necesarias usando npm install.
+4. Inicia el servidor local usando npm start.
+5. Abre tu navegador web y navega a http://localhost:3000 para ver el portafolio en acción.
