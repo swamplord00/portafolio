@@ -43,7 +43,7 @@ const page = () => {
           <section className="curriculum">
             <a
               href="#"
-              className="block max-w-4xl p-6 bg-black border text-white border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-white dark:border-gray-200 dark:hover:bg-gray-200"
+              className="block max-w-4xl p-6 bg-black border text-white border-gray-200 rounded-lg shadow dark:bg-white dark:border-gray-200 dark:hover:bg-gray-200"
             >
               <section className="intro flex justify-center items-center my-8">
                 <div className="max-w-md py-4 px-8 bg-white shadow-lg rounded-lg">
