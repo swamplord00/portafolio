@@ -15,24 +15,24 @@ export const metadata = {
 const page = () => {
   return (
     <>
-      <section class="bg-gray-100 dark:bg-gray-900 flex flex-col items-center justify-items-center gap-8">
-        <div class="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16">
-          <h1 class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
+      <section className="bg-gray-100 dark:bg-gray-900 flex flex-col items-center justify-items-center gap-8">
+        <div className="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16">
+          <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
             About
           </h1>
-          <p class="mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 lg:px-48 dark:text-gray-400">
+          <p className="mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 lg:px-48 dark:text-gray-400">
             {" "}
             Imagine, design, create, and improve without limits...
           </p>
-          <div class="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4 m-4">
+          <div className="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4 m-4">
             <a
               href="#"
-              class="block max-w-4xl p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700"
+              className="block max-w-4xl p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700"
             >
-              <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+              <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                 Service
               </h5>
-              <p class="font-normal text-gray-700 dark:text-gray-400">
+              <p className="font-normal text-gray-700 dark:text-gray-400">
                 I possess a high commitment, adaptability, and creativity to
                 support client processes.
               </p>
@@ -42,7 +42,7 @@ const page = () => {
           <section className="curriculum">
             <a
               href="#"
-              class="block max-w-4xl p-6 bg-black border text-white border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-white dark:border-gray-200 dark:hover:bg-gray-200"
+              className="block max-w-4xl p-6 bg-black border text-white border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-white dark:border-gray-200 dark:hover:bg-gray-200"
             >
               <section className="intro flex justify-center items-center my-8">
                 <div className="max-w-md py-4 px-8 bg-white shadow-lg rounded-lg">
@@ -109,17 +109,17 @@ const page = () => {
                 </div>
               </section>
 
-              <p class="font-normal dark:text-gray-700 text-gray-400"></p>
-              <h5 class="mb-2 text-2xl font-bold tracking-tight dark:text-gray-900 text-gray-200">
+              <p className="font-normal dark:text-gray-700 text-gray-400"></p>
+              <h5 className="mb-2 text-2xl font-bold tracking-tight dark:text-gray-900 text-gray-200">
                 Contact
               </h5>
-              <p class="font-normal dark:text-gray-700 text-gray-400">
+              <p className="font-normal dark:text-gray-700 text-gray-400">
                 Email: vbrionesparra@gmail.com
               </p>
-              <p class="font-normal dark:text-gray-700 text-gray-400">
+              <p className="font-normal dark:text-gray-700 text-gray-400">
                 LinkedIn: https://www.linkedin.com/in/victor-briones-82324558/
               </p>
-              <p class="font-normal dark:text-gray-700 text-gray-400">
+              <p className="font-normal dark:text-gray-700 text-gray-400">
                 Github: swamplord00
               </p>
             </a>

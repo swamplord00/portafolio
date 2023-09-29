@@ -50,6 +50,8 @@ const page = () => {
 
   return (
     <>
+    <div className="bg-gray-100 pb-8">
+
       <div className="p-8">
 
         <AnimatedText text={'Portfolio'}/>
@@ -61,6 +63,8 @@ const page = () => {
       {projects.map((project, index) => (
         <AnimatedCard key={index} {...project} />
       ))}
+    </div>
+
     </div>
 
     </>
