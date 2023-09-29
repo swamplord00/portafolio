@@ -83,9 +83,9 @@ export const Navbar = () => {
               <li className="border-b border-gray-400 my-8 uppercase">
               <Link href="/projects" onClick={() => setIsNavOpen(false)}>Portfolio</Link>
               </li>
-              <li className="border-b border-gray-400 my-8 uppercase">
+              {/* <li className="border-b border-gray-400 my-8 uppercase">
                 <a href="/contact">Contact</a>
-              </li>
+              </li> */}
             </ul>
           </div>
         </section>
