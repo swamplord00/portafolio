@@ -1,5 +1,6 @@
 import {
   SvgExpressjs,
+  SvgMongodb,
   SvgNextUi,
   SvgNextjs,
   SvgNodejs,
@@ -130,7 +131,7 @@ const page = () => {
               Full Stack Developer, React, Node.js, Next.js, Tailwind CSS, etc.
             </p>
 
-            <section className="tecnologias flex justify-center items-center flex-wrap my-8">
+            <section className="tecnologias flex justify-center items-center flex-wrap my-8 max-w-[895px]">
               <div className="tech-card max-w-sm py-4 px-8 bg-white shadow-lg rounded-lg m-2 flex flex-col items-center">
                 <SvgReact />
                 <p className="mt-2 text-gray-600">React</p>
@@ -155,13 +156,17 @@ const page = () => {
                 <SvgExpressjs />
                 <p className="mt-2 text-gray-600">Express.js</p>
               </div>
+              <div className="tech-card max-w-sm py-4 px-8 bg-white shadow-lg rounded-lg m-2 flex flex-col items-center">
+                <SvgMongodb />
+                <p className="mt-2 text-gray-600">Mongodb</p>
+              </div>
             </section>
             <div className="flex flex-wrap gap-2 items-center justify-center">
  
-              <Link href='/assets/docs/CV.pdf' className='flex items-center justify-center bg-slate-950 text-slate-100 p-2 rounded-lg text-lg hover:bg-slate-100 hover:text-slate-900 ' target={'_blank'} download={true}>
+              <Link href='/assets/docs/CV.pdf' className='flex items-center justify-center bg-slate-800 text-slate-100 p-2 rounded-lg text-lg hover:bg-slate-100 hover:text-slate-900 ' target={'_blank'} download={true}>
                 Curriculum
               </Link>
-              <Link href="/projects" className='flex items-center justify-center bg-slate-950 text-slate-100 p-2 rounded-lg text-lg hover:bg-slate-100 hover:text-slate-900 '>
+              <Link href="/projects" className='flex items-center justify-center bg-slate-800 text-slate-100 p-2 rounded-lg text-lg hover:bg-slate-100 hover:text-slate-900 '>
                 Portfolio
               </Link>
             </div>
